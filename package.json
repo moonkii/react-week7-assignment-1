@@ -9,7 +9,8 @@
     "coverage": "npm run test:unit -- --coverage",
     "test:e2e": "codeceptjs run --steps",
     "test": "npm run coverage && start-server-and-test start http://localhost:8080 test:e2e",
-    "lint": "eslint --ext js,jsx ."
+    "lint": "eslint --ext js,jsx .",
+    "watch": "jest --watchAll --coverage"
   },
   "keywords": [],
   "author": "",
@@ -31,14 +32,14 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "given2": "^2.1.7",
-    "jest": "^26.0.1",
+    "jest": "^26.6.3",
     "jest-plugin-context": "^2.9.0",
     "puppeteer": "^5.0.0",
     "redux-mock-store": "^1.5.4",
     "start-server-and-test": "^1.11.2",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "@codeceptjs/configure": "^0.5.2",
